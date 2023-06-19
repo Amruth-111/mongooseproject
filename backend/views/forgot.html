@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/signup.css">
+    <title>forgotpassword</title>
+</head>
+<body>
+    <style>
+        img{
+            max-width: 80%;
+            border-radius:190px;
+            margin-bottom: 20px;
+            height: 200px;
+        }
+    </style>
+
+    <div class="container card w-100 card shadow-lg my-5">
+
+    <header>
+        <img src="./images/forgotpassword.jpg" alt="image not visible">
+    </header>
+    <main>
+        
+        <form action="#">
+            <input type="email" id="email" class="email" placeholder="Enter Email" required><br><br>
+            <button id="mail">send mail</button><br><br> 
+            <div id="success"></div>   
+        </form>
+        <label for="#">need an account?</label>
+        <a href="./signup.html">Signup Page</a>  <br><br><br><br> 
+    </main>
+    <footer>
+
+    </footer>
+    <div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    <script src="forgot.js"></script>
+</body>
+</html>
